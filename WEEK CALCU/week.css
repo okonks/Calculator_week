@@ -1,0 +1,43 @@
+body{
+    background-image: url("calc3.jpg");
+    justify-content: center;
+    background-size: cover;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    background-color: white;
+    padding: 20px 0px 20px 200px; 
+    margin: 200px 250px 200px 250px;
+}
+
+label,input,p{
+    display: block;
+    margin: 12px;
+    width: 500px;
+    height: 30px;
+    font-weight: bold;
+}
+
+#calc{
+    justify-content: center;
+    margin: 10px;
+    margin-left: 100px;
+    width: 200px;
+    background-color: black;
+    color: aliceblue;
+}
+
+#reload{
+    background-color: aliceblue;
+    justify-content: baseline;
+    margin-left: 400px;
+    margin-top: 5px;
+}
+
+#advice{
+    background-color: aliceblue;
+    justify-content: baseline;
+    margin-top: 5px 250px 0px 0px;
+}

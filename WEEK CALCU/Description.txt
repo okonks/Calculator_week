@@ -1,0 +1,8 @@
+During this internship period, I encountered the need for a tool that could efficiently calculate the number of weeks between two specified dates. Realizing the time-consuming nature of manual calculations, I embarked on a web development project to create a user-friendly WEEK CALCulator. This tool not only determines the weeks between dates but also compares them to a target number of weeks. By incorporating interactive features such as remarks and buttons for refreshing and receiving advice on optimal start or end dates, I aimed to streamline the process for users. The entire project was crafted from scratch using HTML, CSS, and JavaScript, marking a significant milestone in my web development journey.
+
+
+I am thrilled to present this innovative tool and invite you to explore its functionality by visiting the following link: [Link to the WEEK CALCulator site].
+
+PS: This basic tool is open for editing and corrections 😊
+
+Enjoy!

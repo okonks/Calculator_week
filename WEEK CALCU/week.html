@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wk calc</title>
+    <link rel="stylesheet" href="week.css">
+    <link rel="icon" href="calc3.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="event.preventDefault();">
+            <h1>WEEK CALCULATOR</h1>
+            <label for="start">Start date:</label>
+            <input type="date" name="start" id="start">
+            <label for="end">End date:</label>
+            <input type="date" name="end" id="end">
+            <label for="target">Target week</label>
+            <input type="number" name="target" id="target">
+            <button id="calc" onclick="calculate();">Calc</button>
+            <p id="ans"></p>
+            <p id="remark"></p>
+            <button id="advice" onclick="comment();">ADIVCE</button>
+            <button id="reload"onclick="reloadPage();">Clear</button>
+            <p id="comm"></p>
+        </form>
+    </div>
+    <script src="week.js"></script>
+</body>
+</html>
